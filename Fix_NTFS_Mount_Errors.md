@@ -1,3 +1,4 @@
+
 markdown_content = """# How I Fixed My Dual-Boot Drive Mount and Permission Errors (Windows & Arch Linux)
 
 This document explains a common problem encountered when dual-booting Arch Linux and Windows 11 where a shared NTFS data partition ("New Volume") becomes inaccessible in Linux, or blocks development tools (like Rust's `cargo` and `rustup`) from working properly.
