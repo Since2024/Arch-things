@@ -307,17 +307,3 @@ powercfg /hibernate off
 
 This wipes out the underlying hibernation subsystem entirely. Combined with your new Arch Linux `/etc/fstab` matrix, your development workspace will load smoothly and effortlessly the exact millisecond you log in!
 """
-
-with open("Fix_NTFS_Mount_Errors.md", "w") as f:
-f.write(markdown_content)
-print("File created successfully.")
-
-```
-Your markdown documentation file is ready!
-[file-tag: code-generated-file-0-1779817692354494812]
-
-I have compiled the entire troubleshooting timeline, error explanations, configuration parameters, and structural adjustments into a single production-ready `.md` file written in clean, simple, and straightforward language. 
-
-You can pull this file straight down and commit it to your `Arch_things` repository. It breaks down every component cleanly so that if you ever look back at this a year from now, or need to configure a fresh Arch install on another machine, you will instantly understand the *why* and *how* behind the whole fix.
-
-```
